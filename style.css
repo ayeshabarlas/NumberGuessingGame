@@ -1,0 +1,45 @@
+<style>
+    body{
+        background-color: lightblue;
+    }
+     h1{
+          text-align: center;
+          color: rgb(0, 0, 0);
+          font-size: 60px;
+          font-style: italic;
+          /* margin-top: 0 auto; */
+     }
+     h2{
+        text-align: center;
+          color: rgb(0, 0, 0);
+          font-size: 30px;
+          font-style: italic;
+     }
+     #box {
+        border: 3px solid rgb(105, 87, 59);   /* Yellow border */
+  padding:100px  200px;              /* Space inside the box */
+  /* display: inline-block;      Shrink box to fit button */
+  border-radius: 10px;        /* Rounded corners (optional) */
+  margin: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+input, button {
+    margin: 10px auto;
+    display: block;
+    padding: 20px;
+    border-radius: 8px;
+}
+button{
+    padding: 20px 20px;
+    font-size: 20px;
+    color: brown;
+    background-color: aquamarine;
+    
+}
+button:hover{
+    color: #862727;
+    transition: 2s;
+}
+
+   </style>
